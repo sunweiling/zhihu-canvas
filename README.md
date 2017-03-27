@@ -1,5 +1,7 @@
-canvas画图（仿知乎登录页面动画）
+canvas画图（仿知乎登录页面动画） 
 --------
+[演示链接](https://sunweiling.github.io/zhihu-canvas/)  
+-------
 主要知识点
 
 - canvas画图
