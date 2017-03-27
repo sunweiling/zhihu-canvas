@@ -45,7 +45,6 @@ class currentCircle extends Circle {
     }
     drawCircle(ctx) {
         ctx.beginPath();
-        this._time = this._time <= 360 ? this._time + 1 : 1;
         this.r = (this.r < 14 && this.r > 1)? this.r + (Math.random() * 2 - 1): 2;
 		ctx.arc(this.x, this.y, this.r, 0, 360);
 		ctx.closePath();
