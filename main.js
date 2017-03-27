@@ -90,7 +90,7 @@ let init = function(num){
 	draw();
 }
 
-window.addEventListener('load', init(100));
+window.addEventListener('load', init(80));
 window.onmousemove = function(e) {
     e = e || window.event;
     current_circle.x = e.clientX;
